@@ -41,6 +41,8 @@ git clone https://github.com/rambajpai19/brainlybot.git
 cd ContextBasedConversationalChatbot
 
 ### 2. Set up the backend
+### 1. Clone the repository
+
 
 cd backend
 python -m venv venv
