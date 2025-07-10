@@ -62,7 +62,7 @@ async function sendMessage() {
   }
 }
 
-// ✅ Auto Welcome Message
+
 window.addEventListener("DOMContentLoaded", () => {
   appendMessage(
     "👋 Welcome to BrainlyBot! I'm your personal tutor — Ask questions, explore subjects, and master concepts with clear, step-by-step help. Ready when you are! 🤖"
