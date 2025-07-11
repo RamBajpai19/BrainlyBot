@@ -14,7 +14,7 @@ from azure.search.documents.models import QueryType
 from dotenv import load_dotenv
 import os
 
-# === Configuration ===
+#Configuration 
 load_dotenv()  
 
 OPENAI_API_KEY  = os.getenv("AZURE_OPENAI_KEY")  
