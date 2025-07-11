@@ -34,9 +34,10 @@ BrainlyBot answers academic and technical queries using your organization's know
 
 ## ⚙️Set up 
 
-### 1. Clone the repository
+
 
 ```bash
+1. Clone the repository
 git clone https://github.com/rambajpai19/brainlybot.git
 cd ContextBasedConversationalChatbot
 
