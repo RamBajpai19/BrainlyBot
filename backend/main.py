@@ -152,4 +152,4 @@ async def chat_get(input: str = Query(..., description="The user's query")):
 # Optional Root Endpoint 
 @app.get("/")
 def read_root():
-    return {"message": "Azure AI Chatbot is running 🚀"}
+    return {"message": "Azure AI Chatbot is running "}
