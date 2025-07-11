@@ -38,12 +38,11 @@ BrainlyBot answers academic and technical queries using your organization's know
 
 ```bash
 1. Clone the repository
+
 git clone https://github.com/rambajpai19/brainlybot.git
 cd ContextBasedConversationalChatbot
 
-### 2. Set up the backend
-
-
+2. Set up the backend
 
 cd backend
 python -m venv venv
@@ -54,7 +53,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 
 
-#3. Configure environment Create a .env file in the root directory:
+3. Configure environment Create a .env file in the root directory:
 
 OPENAI_API_KEY=your_openai_key
 AZURE_ENDPOINT=https://your-openai-resource.openai.azure.com/
@@ -65,7 +64,7 @@ SEARCH_ENDPOINT=https://your-search.search.windows.net/
 SEARCH_KEY=your_search_key
 INDEX_NAME=your_index_name
 
-#4. Launch the frontend
+4. Launch the frontend
 /frontend/index.html
 
 
