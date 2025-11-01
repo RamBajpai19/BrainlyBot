@@ -1,0 +1,17 @@
+{
+  "name": "BrainlyBot Docs",
+  "version": "1.0.0",
+  "description": "BrainlyBot MCP Server Configuration",
+  "capabilities": {
+    "tools": true,
+    "resources": true
+  },
+  "tools": [
+    {
+      "name": "getDocs",
+      "description": "Fetch docs from tools folder",
+      "url": "https://raw.githubusercontent.com/RamBajpai19/BrainlyBot/main/tools/docs.json"
+    }
+  ],
+  "resources": []
+}
